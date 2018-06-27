@@ -8,8 +8,8 @@ from pandas import DataFrame, to_datetime
 from pandas.lib import Timestamp
 import numpy as np
 
-from pyculiarity.date_utils import get_gran
-from pyculiarity.detect_anoms import detect_anoms
+from pyculiar.date_utils import get_gran
+from pyculiar.detect_anoms import detect_anoms
 
 Direction = namedtuple('Direction', ['one_tail', 'upper_tail'])
 
@@ -32,8 +32,6 @@ def detect_ts(df, max_anoms=0.10, direction='pos', alpha=0.05, threshold=None, e
     direction: Directionality of the anomalies to be detected. Options are: ('pos' | 'neg' | 'both').
 
     alpha: The level of statistical significance with which to accept or reject anomalies.
-
-    only_last: Find and report anomalies only within the last day or hr in the time series. Options: (None | 'day' | 'hr')
 
     threshold: Only report positive going anoms above the threshold specified. Options are: (None | 'med_max' | 'p95' | 'p99')
 

@@ -4,7 +4,7 @@ import os
 from nose.tools import eq_
 import pandas as pd
 
-from pyculiarity import detect_ts
+from pyculiar import detect_ts
 
 
 class TestTS(TestCase):

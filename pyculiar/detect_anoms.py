@@ -7,7 +7,7 @@ from statsmodels.robust.scale import mad
 import numpy as np
 import pandas as ps
 
-from pyculiarity.stl import stl
+from pyculiar.stl import stl
 
 
 def detect_anoms(data, k=0.49, alpha=0.05, num_obs_per_period=None,

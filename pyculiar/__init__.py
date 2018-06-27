@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-    pyculiarity
+    pyculiar
 
     A Python port of Twitter's AnomalyDetection R Package.
 
@@ -9,4 +9,4 @@
 
 __version__ = '0.0.2'
 
-from pyculiarity.detect_ts import detect_ts
+from pyculiar.detect_ts import detect_ts

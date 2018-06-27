@@ -5,7 +5,7 @@ from nose.tools import eq_, raises
 import pandas as pd
 import numpy as np
 
-from pyculiarity import detect_ts
+from pyculiar import detect_ts
 
 
 class TestNAs(TestCase):

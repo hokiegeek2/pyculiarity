@@ -1,5 +1,5 @@
 """
-Usage details and source available here: https://github.com/wdm0006/pyculiarity.
+Usage details and source available here: https://github.com/wdm0006/pyculiar.
 
 The original R source and examples are available here: https://github.com/twitter/AnomalyDetection.
 
@@ -36,8 +36,8 @@ setup(
     version=__version__,
     description='A pure python port of Twitter\'s AnomalyDetection R Package.',
     long_description=__doc__,
-    url='https://github.com/wdm0006/pyculiarity',
-    download_url='https://github.com/wdm0006/pyculiarity/tarball/' + __version__,
+    url='https://github.com/wdm0006/pyculiar',
+    download_url='https://github.com/wdm0006/pyculiar/tarball/' + __version__,
     author='Will McGinnis & Nicolas Steven Miller',
     author_email='will@predikto.com',
     license='GPL',
@@ -51,7 +51,7 @@ setup(
         'Programming Language :: Python :: 3',
     ],
     keywords='data anomaly detection pandas timeseries',
-    packages=['pyculiarity'],
+    packages=['pyculiar'],
     install_requires=install_requires,
     depedency_links=dependency_links,
     extras_require={
