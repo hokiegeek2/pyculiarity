@@ -1,5 +1,5 @@
-pyculiarity
-===========
+pyculiar
+========
 
 A minimal and pure python fork of @nicolasmiller's library [pyculiarity](https://github.com/nicolasmiller/pyculiarity). 
 That is a Python port of Twitter's AnomalyDetection R Package. The original source and examples are available 
@@ -12,7 +12,7 @@ wdm00006 also stripped out some unused/unimplimented code to try to make this a 
 Installation
 ------------
 
-The original library is on pypi as pyculiarity. Since I am interesting in testing both the original and this version of pyculiarity, I changed the package name to pyculiar. To install this version of pyculiarity (again, named pyculiar), run the following command from the root project directory:
+The original library is on pypi as pyculiarity. Since I (hokiegeek2) am interesting in testing both the original and this version of pyculiarity, I changed the package name to pyculiar. To install this version of pyculiarity (again, named pyculiar), run the following command from the root project directory:
 
     python2/3 setup.py install 
 
