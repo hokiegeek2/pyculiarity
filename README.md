@@ -26,7 +26,7 @@ timestamps and values. The second expects either a single-column DataFrame or a 
 Here's an example of loading Twitter's example data (included in the tests directory) with Pandas and passing it to 
 Pyculiarity for processing.
 
-hokiegeek2 NOTE: The only_last parameter is not supported in this version of pycularity. In addition, thieraw_data.csv file bundled with this project cannot be processed with this version of pyculiarity since the timestamp must be in unix timestamp format.
+hokiegeek2 NOTE: The only_last parameter is not supported in this version of pycularity. In addition, the raw_data.csv file bundled with this project cannot be processed with this version of pyculiarity since the timestamp must be in unix timestamp format.
 
     from pyculiarity import detect_ts
     import matplotlib.pyplot as plt
