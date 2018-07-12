@@ -3,18 +3,16 @@ from collections import namedtuple
 import datetime
 import copy
 
-from past.builtins import basestring
-from pandas import DataFrame, to_datetime
-from pandas.lib import Timestamp
+from pandas import DataFrame
+from pandas._libs.lib import Timestamp
 import numpy as np
 
-from pyculiar.date_utils import get_gran
 from pyculiar.detect_anoms import detect_anoms
 
 Direction = namedtuple('Direction', ['one_tail', 'upper_tail'])
 
 
-def detect_ts(df, max_anoms=0.10, direction='pos', alpha=0.05, threshold=None, e_value=False, longterm=False,
+def detect_ts(df, max_anoms=0.10, direction='both', alpha=0.05, threshold=None, e_value=False, longterm=False,
               piecewise_median_period_weeks=2, granularity='day', verbose=False, inplace=True):
     """
     Anomaly Detection Using Seasonal Hybrid ESD Test
