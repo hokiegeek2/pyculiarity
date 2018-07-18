@@ -4,7 +4,7 @@ import datetime
 import copy
 
 from pandas import DataFrame
-from pandas._libs.lib import Timestamp
+from pandas import Timestamp
 import numpy as np
 
 from pyculiar.detect_anoms import detect_anoms

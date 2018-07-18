@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 from datetime import datetime
 from heapq import nlargest
-from re import match
-
-import pytz
-import numpy as np
-
 
 def date_format(column, format):
     return column.map(lambda datestring: datetime.strptime(datestring, format))
